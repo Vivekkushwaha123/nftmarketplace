@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fa-sun {
+  color: yellow;
+  font-size: 9px;
+}
+
+.fa-moon {
+  color: pink;
+  font-size: 9px;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(16px);
+}
+
+.ball {
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s linear;
+}
+
+.label {
+  transform: scale(1.5);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flexStartCenter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexBetweenStart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCenterStart {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.no-scrollbar {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-h {
+  height: calc(100vh - 66px);
+}
+
+.white-bg {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nft-gradient {
+  background: linear-gradient(
+    101.12deg,
+    #eb1484 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc3 100%
+  );
+}
+
+@keyframes fadeIn {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

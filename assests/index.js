@@ -1,0 +1,42 @@
+/* eslint-disable global-require */
+const images = {
+  logo: require('./logo.png'),
+  menu: require('./Menu.png'),
+  darkCross: require('./darkcross.png'),
+  instagram: require('./ig.png'),
+  discord: require('./discord.png'),
+  telegram: require('./telegram.png'),
+  twitter: require('./twitter.png'),
+  creator1: require('./creator1.png'),
+  creator2: require('./creator2.png'),
+  creator3: require('./creator3.png'),
+  creator4: require('./creator4.png'),
+  creator5: require('./creator5.png'),
+  creator6: require('./creator6.png'),
+  creator7: require('./creator7.png'),
+  creator8: require('./creator8.png'),
+  creator9: require('./creator9.png'),
+  creator10: require('./creator10.png'),
+  creator11: require('./creator11.png'),
+  creator12: require('./creator12.png'),
+  rightCircle: require('./rightCircle.png'),
+  greenTick: require('./greenTick.png'),
+  leftCircle: require('./leftCircle.png'),
+  nft1: require('./nft-1.jpg'),
+  nft2: require('./nft-2.jpg'),
+  nft3: require('./nft-3.jpg'),
+  nft4: require('./nft-4.jpg'),
+  nft5: require('./nft-5.jpg'),
+  nft6: require('./nft-6.jpg'),
+  nft7: require('./nft-7.jpg'),
+  nft8: require('./nft-8.jpg'),
+  nft9: require('./nft-9.jpg'),
+  nft10: require('./nft-10.jpg'),
+  upload: require('./upload.png'),
+  dropArrow: require('./dropArrow.png'),
+  search: require('./Search.png'),
+
+};
+
+export default images;
+
